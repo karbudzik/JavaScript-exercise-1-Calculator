@@ -1,0 +1,133 @@
+@import url(reset.css);
+
+/*GENERAL FORMATTING:*/
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(to bottom, #5a5a90, #a7a5ca); 
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    margin: 6em auto;
+    width: 320px;
+    height: 550px;
+    background-image: linear-gradient(to bottom, #cb9df2, #5fe7df);
+    box-shadow: 0px 8px 53px 5px rgba(25,25,25,0.6);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.calculator .screen {
+    padding: 70px 25px 20px 20px;
+    width: 320px;
+    text-align: right;
+    font-size: 70px;
+    font-weight: 100;
+    text-shadow: 0 1px 1px rgba(105, 105, 105, 0.5);
+    overflow: hidden;
+    display: inline-block;
+}
+
+.calculator button {
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 1px 1px rgba(105, 105, 105, 0.5);
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0px;
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+/*BUTTONS' COLORS:*/
+
+.calculator .double {
+    width: 160px;
+}
+
+button.row1 {
+    background-color: #a4adec 
+}
+
+button.row2 {
+    background-color: #9abee9
+}
+
+button.row2end {
+    background-color: #98b5ea
+}
+
+button.row3 {
+    background-color: #89cae7
+}
+
+button.row3end {
+    background-color: #8cbde8
+}
+
+button.row4 {
+    background-color: #7cd4e4
+}
+
+button.row4end {
+    background-color: #7fc5e5
+}
+
+button.row5 {
+    background-color: #6adfe1
+}
+
+button.row5end {
+    background-color: #74cce4
+}
+
+/*BUTTONS' BORDERS:*/
+
+button#clear {
+    border-style: none solid solid none;
+}
+
+button#percent {
+    border-style: none solid solid solid;
+}
+
+button#divide {
+    border-style: none none solid solid;
+}
+button#number7, button#number4, button#number1 {
+    border-style: solid solid solid none;
+}
+
+button#number0 {
+    border-style: solid solid none none;
+    text-align: left;
+    text-indent: 25px;
+}
+
+button#dot {
+    border-style: solid solid none solid;
+    font-weight: 300;
+    
+}
+
+button#equals {
+    border-style: solid none none solid;
+}
+
+button#sum, button#substract, button#multiply {
+    border-style: solid none solid solid;
+}
+
