@@ -1,5 +1,5 @@
 # JavaScript exercise 1 - Calculator
-> My first practical project while learning JavaScript.
+> My first practical project while learning JavaScript. [@Click here to preview](https://karbudzik.github.io/JavaScript-exercise-1-browser-calculator/)
 
 ## Screenshots
 ![Calculator_screenshot](img/calculator_screenshot.jpg)
