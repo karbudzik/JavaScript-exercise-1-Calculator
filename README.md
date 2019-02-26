@@ -2,7 +2,7 @@
 > My first practical project while learning JavaScript.
 
 ## Screenshots
-![Example screenshot](./img/calculator_screenshot.img)
+![Example screenshot](/img/calculator_screenshot.img)
 
 ## Technologies
 * HTML5.2
